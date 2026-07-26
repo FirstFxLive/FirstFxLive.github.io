@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact &amp; Book a Demo — fx2live</title>
+  <meta name="description" content="Book a demo of fx2live daycare management software or get in touch with our Brooklyn-based team. Email hello@fx2live.com.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect x='2' y='2' width='44' height='44' rx='12' fill='%231e2a4a'/%3E%3Ccircle cx='24' cy='28' r='10' fill='%23ff6b5b'/%3E%3Cpath d='M9 36 Q24 21 39 36' stroke='%232bb8a3' stroke-width='4' fill='none' stroke-linecap='round'/%3E%3Ccircle cx='34' cy='13' r='4' fill='%23ffb648'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Nunito:wght@700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="index.html" aria-label="fx2live home">
+        <svg class="logo-mark" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect x="2" y="2" width="44" height="44" rx="12" fill="#1e2a4a"/>
+          <circle cx="24" cy="28" r="10" fill="#ff6b5b"/>
+          <path d="M9 36 Q24 21 39 36" stroke="#2bb8a3" stroke-width="4" fill="none" stroke-linecap="round"/>
+          <circle cx="34" cy="13" r="4" fill="#ffb648"/>
+        </svg>
+        <span>
+          <span class="logo-text"><span class="fx">fx2</span>live</span>
+          <span class="logo-tag">First Experience to Live</span>
+        </span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="features.html">Features</a></li>
+        <li><a href="ai.html">AI Copilot</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a class="btn btn-primary btn-sm" href="#demo">Book a demo</a>
+        <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <span class="eyebrow coral">Contact us</span>
+      <h1>Let's talk about your center</h1>
+      <p>Book a demo, ask a question, or just say hello. A real person from our Brooklyn team will get back to you within one business day.</p>
+    </div>
+  </section>
+
+  <section id="demo">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <h2 style="margin-bottom:28px;">Reach us directly</h2>
+        <div class="info-item">
+          <div class="icon">✉️</div>
+          <div>
+            <b>Email</b>
+            <p><a href="mailto:hello@fx2live.com">hello@fx2live.com</a></p>
+            <p style="font-size:0.85rem;">Demos, support, partnerships &amp; press</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="icon" style="background:var(--teal-soft);">📍</div>
+          <div>
+            <b>Office</b>
+            <p>100 E 21st Street<br>Brooklyn, NY 11226</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="icon" style="background:var(--gold-soft);">🕐</div>
+          <div>
+            <b>Support hours</b>
+            <p>7 days a week, 7 am – 8 pm ET<br>Because centers don't close on Saturdays.</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="icon" style="background:var(--bg-cool);">🎓</div>
+          <div>
+            <b>Already a customer?</b>
+            <p>Email <a href="mailto:hello@fx2live.com">hello@fx2live.com</a> with "Support" in the subject line for priority routing.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-card">
+        <h2 style="font-size:1.5rem;margin-bottom:6px;">Book a demo</h2>
+        <p style="font-size:0.95rem;margin-bottom:24px;">Tell us a little about your program and we'll schedule a 30-minute walkthrough.</p>
+        <form id="demo-form">
+          <div class="form-row">
+            <div class="field">
+              <label for="name">Your name *</label>
+              <input type="text" id="name" name="name" required autocomplete="name">
+            </div>
+            <div class="field">
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" required autocomplete="email">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="field">
+              <label for="center">Center / program name</label>
+              <input type="text" id="center" name="center" autocomplete="organization">
+            </div>
+            <div class="field">
+              <label for="size">Number of children</label>
+              <select id="size" name="size">
+                <option value="">Select…</option>
+                <option>1–12 (in-home / single room)</option>
+                <option>13–50</option>
+                <option>51–120</option>
+                <option>120+ or multi-site</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label for="topic">What are you interested in?</label>
+            <select id="topic" name="topic">
+              <option>Booking a demo</option>
+              <option>Pricing question</option>
+              <option>Switching from another platform</option>
+              <option>Partnership or press</option>
+              <option>Something else</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="message">Anything else we should know?</label>
+            <textarea id="message" name="message" placeholder="Current software, timeline, biggest pain point…"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;">Send request</button>
+          <p style="font-size:0.8rem;margin-top:14px;text-align:center;">This opens a pre-filled email to hello@fx2live.com from your mail app.<br>By contacting us you agree to our <a href="privacy.html">Privacy Policy</a>.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-cool">
+    <div class="container">
+      <div class="section-head center">
+        <span class="eyebrow gold">Before you write</span>
+        <h2>Quick answers</h2>
+      </div>
+      <div class="faq">
+        <details>
+          <summary>How long does onboarding take?</summary>
+          <p>Most single-site centers are fully live within two weeks of signing up, including data migration and staff training. Multi-site groups get a tailored rollout plan.</p>
+        </details>
+        <details>
+          <summary>Can you import data from our current software?</summary>
+          <p>Yes — we migrate from all major childcare platforms and from spreadsheets, free of charge on every plan.</p>
+        </details>
+        <details>
+          <summary>Do parents have to pay for the app?</summary>
+          <p>Never. Parent accounts and the family app are free and unlimited on every plan.</p>
+        </details>
+        <details>
+          <summary>Is fx2live available outside the US?</summary>
+          <p>Our platform is currently built for US-based programs (billing, subsidy, and licensing workflows are US-focused). If you're elsewhere, write to us anyway — we'd love to hear what you need.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <a class="logo" href="index.html">
+            <svg class="logo-mark" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <rect x="2" y="2" width="44" height="44" rx="12" fill="#ffffff" opacity="0.08"/>
+              <circle cx="24" cy="28" r="10" fill="#ff6b5b"/>
+              <path d="M9 36 Q24 21 39 36" stroke="#2bb8a3" stroke-width="4" fill="none" stroke-linecap="round"/>
+              <circle cx="34" cy="13" r="4" fill="#ffb648"/>
+            </svg>
+            <span><span class="logo-text"><span class="fx">fx2</span>live</span></span>
+          </a>
+          <p>First Experience to Live. AI-powered management software for daycares, preschools, and early-education programs.</p>
+        </div>
+        <div>
+          <h4>Product</h4>
+          <ul>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="ai.html">FX2 Copilot</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul class="footer-contact">
+            <li>100 E 21st Street<br>Brooklyn, NY 11226</li>
+            <li><a href="mailto:hello@fx2live.com">hello@fx2live.com</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span data-year>2026</span> fx2live, Inc. All rights reserved.</span>
+        <div class="legal-links">
+          <a href="terms.html">Terms</a>
+          <a href="privacy.html">Privacy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    // Static-site contact form: composes a pre-filled email to hello@fx2live.com.
+    // To capture submissions server-side instead, point this form at a service
+    // like Formspree/Basin and remove this handler.
+    document.getElementById("demo-form").addEventListener("submit", function (e) {
+      e.preventDefault();
+      var f = e.target;
+      var subject = "[fx2live] " + (f.topic.value || "Demo request") + " — " + (f.center.value || f.name.value);
+      var body =
+        "Name: " + f.name.value + "\n" +
+        "Email: " + f.email.value + "\n" +
+        "Center: " + (f.center.value || "—") + "\n" +
+        "Size: " + (f.size.value || "—") + "\n" +
+        "Interest: " + f.topic.value + "\n\n" +
+        (f.message.value || "");
+      window.location.href = "mailto:hello@fx2live.com?subject=" +
+        encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+    });
+  </script>
+</body>
+</html>
